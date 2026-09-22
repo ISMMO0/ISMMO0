@@ -4,11 +4,11 @@
 
 ### AI Engineer | Generative AI, RAG & AI Agents
 
-ESIEE Paris engineering graduate · Data Science & Artificial Intelligence
+ESIEE Paris - UCSD engineering graduate · Data Science & Artificial Intelligence
 
 Open to full-time AI Engineering opportunities · Available now
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ismail-el-hammoumi)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ismail-el-hammoumi-4b7718314/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ismailhammoumi60@gmail.com)
 [![Location](https://img.shields.io/badge/Paris-France-blue?style=for-the-badge)](https://www.google.com/maps?q=Paris%2CFrance)
 
