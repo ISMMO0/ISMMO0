@@ -31,7 +31,7 @@ I graduated from **ESIEE Paris** in Data Science & Artificial Intelligence, with
 | Project | What it is |
 | --- | --- |
 | [**Harry Potter Q&A — Local RAG**](https://github.com/ISMMO0/harry-potter-rag) | A Streamlit question-answering application over seven original book summaries and uploaded documents. It combines MiniLM semantic search with BM25 retrieval and local Qwen 2.5 inference through Ollama, with visible evidence and citation-ID validation. |
-| **Breast Cancer Diagnosis with AI** | A TensorFlow/Keras CNN for medical-image classification, evaluated with train, validation, and test splits and a confusion matrix. Ranked among the top 20 of 180 projects in an ESIEE Paris engineering competition. |
+| [**Breast Cancer Diagnosis with AI**](https://github.com/ISMMO0/breast-cancer-diagnosis-ai) | A TensorFlow/Keras CNN for medical-image classification, evaluated with train, validation, and test splits and a confusion matrix. Ranked among the top 20 of 180 projects in an ESIEE Paris engineering competition. |
 
 ## Experience
 
