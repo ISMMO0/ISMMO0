@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="Geist, Inter, system-ui, sans-serif">
+<style>
+@keyframes scan{0%{transform:translateY(0)}100%{transform:translateY(260px)}}
+@keyframes box{0%,40%{opacity:0}55%,100%{opacity:1}}
+@keyframes bar{0%,55%{width:0}80%,100%{width:226px}}
+.s{animation:scan 3.5s linear infinite}.b{animation:box 3.5s ease infinite}.r{animation:bar 3.5s ease infinite}
+</style>
+<rect width="800" height="450" fill="#0d1014"/>
+<defs><radialGradient id="t" cx="45%" cy="55%" r="60%"><stop offset="0" stop-color="#cfd6de"/><stop offset=".6" stop-color="#6b7480"/><stop offset="1" stop-color="#14181d"/></radialGradient><clipPath id="m"><path d="M120 80h150c40 60 60 140 40 260H120z"/></clipPath></defs>
+<path d="M120 80h150c40 60 60 140 40 260H120z" fill="url(#t)"/>
+<g clip-path="url(#m)"><rect class="s" x="110" y="80" width="230" height="4" fill="#5fe0ff" opacity=".8"/></g>
+<rect class="b" x="215" y="200" width="56" height="48" rx="4" fill="none" stroke="#ff7a8a" stroke-width="3"/>
+<g font-size="14" fill="#a9b2bf"><text x="430" y="140" fill="#7f8aa6" letter-spacing="2" font-size="13">REGION PROPOSAL · DYNAMIC PROGRAMMING</text>
+<text x="430" y="200">benign</text><rect x="520" y="188" width="226" height="14" rx="7" fill="#1d2329"/><rect class="r" x="520" y="188" height="14" rx="7" fill="#5fbf7a"/>
+<text x="430" y="240">accuracy</text><text x="520" y="242" fill="#e8ecf5" font-size="20">83.98 %</text>
+<text x="430" y="290" fill="#7f8aa6" font-size="13">MobileNet · VinDr-Mammo · finalist, ESIEE 2024</text></g>
+</svg>

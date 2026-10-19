@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="Geist, Inter, system-ui, sans-serif">
+<style>
+@keyframes glow{0%,100%{opacity:.25}50%{opacity:1}}
+@keyframes fly{0%,20%{transform:translate(0,0);opacity:0}30%{opacity:1}70%{transform:translate(330px,-4px);opacity:1}85%,100%{transform:translate(330px,-4px);opacity:0}}
+@keyframes pop{0%,65%{transform:scale(.6);opacity:0}75%,100%{transform:scale(1);opacity:1}}
+.l1{animation:glow 3s ease-in-out infinite}.l2{animation:glow 3s ease-in-out .8s infinite}.l3{animation:glow 3s ease-in-out 1.6s infinite}
+.page{animation:fly 5s cubic-bezier(.22,.8,.24,1) infinite}.ok{transform-origin:640px 230px;animation:pop 5s ease-out infinite}
+</style>
+<defs><radialGradient id="bg" cx="40%" cy="30%" r="90%"><stop offset="0" stop-color="#1f2a5c"/><stop offset="1" stop-color="#0b0e1c"/></radialGradient>
+<radialGradient id="fl"><stop offset="0" stop-color="#fff4d6"/><stop offset=".5" stop-color="#f3b955"/><stop offset="1" stop-color="#f3b95500"/></radialGradient></defs>
+<rect width="800" height="450" fill="url(#bg)"/>
+<g fill="#c9d0ee" font-size="15"><text x="70" y="96" fill="#8e98c4" font-size="13" letter-spacing="2">YOUR PROJECTS</text>
+<circle class="l1" cx="82" cy="135" r="9" fill="url(#fl)"/><text x="104" y="140">soulbook</text>
+<circle class="l2" cx="82" cy="175" r="9" fill="url(#fl)"/><text x="104" y="180">aquarium</text>
+<circle class="l3" cx="82" cy="215" r="9" fill="url(#fl)"/><text x="104" y="220">neurotech</text>
+<g fill="#8e98c4" font-size="13"><text x="104" y="262">claude code · codex · slack · meet</text></g></g>
+<g class="page"><rect x="230" y="190" width="70" height="88" rx="8" fill="#e9ecf8"/><rect x="242" y="206" width="46" height="5" rx="2" fill="#9aa3c8"/><rect x="242" y="218" width="38" height="5" rx="2" fill="#9aa3c8"/><rect x="242" y="230" width="44" height="5" rx="2" fill="#9aa3c8"/><circle cx="250" cy="260" r="5" fill="#e9b45c"/></g>
+<circle cx="640" cy="230" r="46" fill="#2b3566" stroke="#e9b45c" stroke-width="2"/><text x="640" y="238" text-anchor="middle" fill="#fff" font-size="24">M</text>
+<g class="ok"><circle cx="672" cy="196" r="13" fill="#7cf2c4"/><path d="M666 196l4 4 8-8" stroke="#0b0e1c" stroke-width="2.5" fill="none" stroke-linecap="round"/></g>
+<text x="640" y="306" text-anchor="middle" fill="#c9d0ee" font-size="14">handoff · read-only · revocable</text>
+</svg>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="Geist, Inter, system-ui, sans-serif">
+<style>
+@keyframes in{0%{opacity:0;transform:translateY(8px)}100%{opacity:1;transform:none}}
+@keyframes wave{0%,100%{transform:scaleY(.3)}50%{transform:scaleY(1)}}
+.a{animation:in .6s ease-out .2s both}.b{animation:in .6s ease-out 1s both}.c{animation:in .6s ease-out 1.8s both}.d{animation:in .6s ease-out 2.6s both}
+.w rect{transform-origin:center;transform-box:fill-box;animation:wave 1s ease-in-out infinite}
+.w rect:nth-child(2){animation-delay:.15s}.w rect:nth-child(3){animation-delay:.3s}.w rect:nth-child(4){animation-delay:.45s}.w rect:nth-child(5){animation-delay:.6s}.w rect:nth-child(6){animation-delay:.75s}
+</style>
+<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#2a1d12"/><stop offset="1" stop-color="#120c08"/></linearGradient></defs>
+<rect width="800" height="450" fill="url(#bg)"/>
+<g class="a"><rect x="60" y="80" width="300" height="56" rx="16" fill="#3a2a1b"/><text x="80" y="114" fill="#f1e2cc" font-size="16">"My son is 9, he struggles with fractions."</text></g>
+<g class="b"><text x="60" y="186" fill="#c99a62" font-size="13" letter-spacing="2">RESEARCHED CURRICULUM</text>
+<g fill="#e8c99a"><rect x="60" y="200" width="220" height="10" rx="5"/><rect x="60" y="222" width="180" height="10" rx="5"/><rect x="60" y="244" width="200" height="10" rx="5"/></g></g>
+<g class="c"><circle cx="560" cy="200" r="70" fill="#4a3320" stroke="#e8a85c" stroke-width="2"/><text x="560" y="210" text-anchor="middle" font-size="34" fill="#ffe6c2">tutor</text></g>
+<g class="d"><g class="w" fill="#e8a85c"><rect x="500" y="300" width="10" height="40" rx="5"/><rect x="520" y="300" width="10" height="40" rx="5"/><rect x="540" y="300" width="10" height="40" rx="5"/><rect x="560" y="300" width="10" height="40" rx="5"/><rect x="580" y="300" width="10" height="40" rx="5"/><rect x="600" y="300" width="10" height="40" rx="5"/></g>
+<text x="560" y="370" text-anchor="middle" fill="#c99a62" font-size="14">its own voice · remembers progress</text></g>
+</svg>

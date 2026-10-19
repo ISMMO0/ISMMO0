@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="Geist, Inter, system-ui, sans-serif">
+<style>
+@keyframes hl{0%,25%{fill:#1f2433}35%,100%{fill:#2d3b2a}}
+@keyframes in{0%,55%{opacity:0}70%,100%{opacity:1}}
+@keyframes type{0%{width:0}30%,100%{width:330px}}
+.p1 rect{animation:hl 4.5s ease infinite}.p3 rect{animation:hl 4.5s ease .4s infinite}.ans{animation:in 4.5s ease infinite}.q{animation:type 4.5s steps(30) infinite}
+</style>
+<rect width="800" height="450" fill="#0f1218"/>
+<rect x="60" y="60" width="680" height="50" rx="12" fill="#1a1f2b"/><clipPath id="c"><rect class="q" x="80" y="70" height="30"/></clipPath>
+<text x="84" y="92" fill="#e8ecf5" font-size="17" clip-path="url(#c)">Who gave Harry the invisibility cloak?</text>
+<g font-size="13" fill="#9aa4bd"><text x="60" y="150" fill="#7f8aa6" letter-spacing="2">HYBRID RETRIEVAL · MiniLM + BM25</text>
+<g class="p1"><rect x="60" y="164" width="330" height="44" rx="8"/><text x="76" y="191">[1] Book 1 · Christmas at Hogwarts…</text></g>
+<g><rect x="60" y="216" width="330" height="44" rx="8" fill="#1f2433"/><text x="76" y="243">[2] Book 3 · The Marauder's Map…</text></g>
+<g class="p3"><rect x="60" y="268" width="330" height="44" rx="8"/><text x="76" y="295">[3] Book 7 · The Deathly Hallows…</text></g></g>
+<g class="ans"><rect x="420" y="164" width="320" height="148" rx="12" fill="#18221c" stroke="#5fbf7a" stroke-opacity=".5"/>
+<text x="440" y="198" fill="#dff5e4" font-size="16">Dumbledore left it to him,</text><text x="440" y="222" fill="#dff5e4" font-size="16">anonymously, at Christmas.</text>
+<text x="440" y="262" fill="#7fd99a" font-size="15">sources [1] [3] · validated</text><text x="440" y="292" fill="#7f8aa6" font-size="13">local Qwen 2.5 via Ollama</text></g>
+</svg>
