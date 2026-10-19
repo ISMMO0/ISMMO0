@@ -6,7 +6,7 @@
 
 ESIEE Paris - UCSD engineering graduate · Data Science & Artificial Intelligence
 
-### 🔴 Open to full-time AI Engineering opportunities · Available now 🔴
+<img src="assets/available.svg" width="760" alt="Open to full-time AI Engineering opportunities · Available now">
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ismail-el-hammoumi-4b7718314/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ismailhammoumi60@gmail.com)
@@ -51,7 +51,7 @@ I graduated from **ESIEE Paris** in Data Science & Artificial Intelligence, with
 <table width="100%">
   <tr>
     <th width="50%" align="center"><a href="https://github.com/ISMMO0/harry-potter-rag">Harry Potter Q&A, local RAG</a></th>
-    <th width="50%" align="center"><a href="https://github.com/ISMMO0/breast-cancer-diagnosis-ai">Breast Cancer Diagnosis with AI</a> <sub>🏅 Top 10 of all projects, ESIEE Paris</sub></th>
+    <th width="50%" align="center"><a href="https://github.com/ISMMO0/breast-cancer-diagnosis-ai">Breast Cancer Diagnosis with AI</a> <sub>🏅 Top 10 of 180 projects, ESIEE Paris</sub></th>
   </tr>
   <tr>
     <td width="50%" align="center"><a href="https://github.com/ISMMO0/harry-potter-rag"><img src="assets/rag.svg" alt="A question retrieves passages and gets a cited, validated answer"></a></td>
@@ -59,7 +59,7 @@ I graduated from **ESIEE Paris** in Data Science & Artificial Intelligence, with
   </tr>
   <tr>
     <td width="50%" valign="top">A Streamlit question-answering application over seven original book summaries and uploaded documents. It combines MiniLM semantic search with BM25 retrieval and local Qwen 2.5 inference through Ollama, with visible evidence and citation-ID validation.<br><sub>Python · SentenceTransformers · BM25 · Ollama · Streamlit</sub></td>
-    <td width="50%" valign="top">A TensorFlow/Keras CNN for medical-image classification, evaluated with train, validation, and test splits and a confusion matrix. Ranked in the top 10 of all projects in the ESIEE Paris engineering competition.<br><sub>Python · TensorFlow / Keras · MobileNet · DICOM</sub></td>
+    <td width="50%" valign="top">A TensorFlow/Keras CNN for medical-image classification, evaluated with train, validation, and test splits and a confusion matrix. Ranked in the top 10 of 180 projects in the ESIEE Paris engineering competition.<br><sub>Python · TensorFlow / Keras · MobileNet · DICOM</sub></td>
   </tr>
 </table>
 
